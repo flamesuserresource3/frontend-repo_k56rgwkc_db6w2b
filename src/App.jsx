@@ -9,8 +9,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   useEffect(() => {
-    // Apply a clean, bold type scale via Tailwind utilities
-    document.documentElement.classList.add('antialiased');
+    document.documentElement.classList.add('antialiased', 'scroll-smooth');
   }, []);
 
   return (
